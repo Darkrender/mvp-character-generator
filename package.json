@@ -3,6 +3,13 @@
     "version": "0.0.0",
     "private": false,
     "license": "UNLICENCED",
+    "engines": {
+    "node": "5.9.1"
+    },
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
     "dependencies": {
       "body-parser": "^1.16.0",
       "express": "^4.14.0",
