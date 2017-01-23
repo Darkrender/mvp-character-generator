@@ -5,10 +5,13 @@ var app = express();
 
 mongoose.connect('mongodb://localhost/rpg-character-generator');
 
-app.listen(8000);
 
-app.get('/', function(req, res) {
-  res.end();
+app.get('/', function(request, response) {
+  response.render('client/index.html');
+});
+
+app.listen(8000, function() {
+  console.log('Node app is running on port 8000');
 });
 
 modules.exports = app;
