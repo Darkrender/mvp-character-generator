@@ -13,5 +13,3 @@ app.get('/', function(request, response) {
 app.listen(8000, function() {
   console.log('Node app is running on port 8000');
 });
-
-modules.exports = app;
