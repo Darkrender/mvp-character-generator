@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @Darkrender
- Watch 23
-  Star 0
- Fork 6 hackreactor/hrr21-mvp Private
- Code  Pull requests 0  Projects 0  Pulse  Graphs
-Branch: master Find file Copy pathhrr21-mvp/.gitignore
-36c3d40  3 days ago
-@fredx fredx (init)
-1 contributor
-RawBlameHistory     
-36 lines (27 sloc)  610 Bytes
 ### node etc ###
 
 # Logs
@@ -50,5 +33,3 @@ bower_components/
 .floobit
 .floo
 .flooignore
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
