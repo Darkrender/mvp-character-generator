@@ -1,4 +1,4 @@
-# Character Generator #
+# RPG Character Generator #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -17,28 +17,27 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > RPG Character Generator - An app to create and share your Dungeons and Dragons characters
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > RPG Character Generator is for anyone who wants an easy way to generate simple Dungeons and Dragons character sheets and share them with the world.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > RPG Character Generator lets you create and store RPG Character Sheets for games like Dungeons and Dragons quickly and easily from your browser. You can also browse all of the character sheets that others have created.
 
 ## Problem ##
-  > Describe the problem your product solves.
-
+  > Writing a custom character sheet by hand can be tedious, especially if you have to re-write it for every new Dungeons and Dragons game you and your friends start. Sometimes you might feel like just jumping right into the game with a pre-built character sheet but dont like the default templates that are available to you. 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > RPG Character Generator solves the problem of having to write your own character sheets by hand by allowing you simple type in all of the attributes you want and storing them all in one place! You can also browse all characters sheets made by others so that you can use someone else's pre-built characters without having to make any yourself if you're in a hurry!
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > 
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Getting started with RPG Character Generator is as easy as clicking on the 'Create Character' tab, filling out the empty text boxes, and hitting the submit button! Once you're done, you can view your character sheet in the 'Character Sheet' tab, or browse all of the characters that have been created in the 'All Characters' tab!
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "RPG Character Generator vastly simplified the overhead of starting a new DnD game for our group. Within minutes, we had all of our characters set up and ready to start playing."
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > So if you're tired of spending hours tediously writing your own character sheets by hand, use RPG Character Generator and get you and your group to the real fun faster!
