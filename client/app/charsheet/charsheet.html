@@ -9,10 +9,18 @@
       </li>
     </ul>
   </nav>
-
-  <div>
-    <p>
-      Muahahahahahahhahahahahahahaah.... roar
-    </p>
-  </div>
+  <form id="csForm" ng-controller="csFormCtrl">
+    <h3>
+      Name:
+      <input type="text" name="Name" value={{name}}>
+    </h3>
+    <h3>
+      Race:
+      <select ng-model="selectedRace" ng-options="race for race in races"></select>
+    </h3>
+    <h3>
+      Class:
+      <select ng-model="selectedClass" ng-options="class for class in classes"></select>
+    </h3>
+  </form>
 </div>
