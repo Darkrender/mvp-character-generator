@@ -9,10 +9,11 @@
       </li>
     </ul>
   </nav>
-  <form id="csForm" ng-controller="csFormCtrl">
+  <form id="csForm" ng-submit="submit()" ng-controller="csFormCtrl">
+
     <h3>
       Name:
-      <input type="text" name="Name" value={{name}}>
+      <input type="text" name="Name" ng-model="name">
     </h3>
     <h3>
       Race:
@@ -22,5 +23,14 @@
       Class:
       <select ng-model="selectedClass" ng-options="class for class in classes"></select>
     </h3>
+
+    <input type="submit" name="submit" value="Submit">
+    <pre>
+    race = {{selectedRace}}
+    class = {{selectedClass}}
+    name = {{name}}
+
+    object to push to database: {{character}}
+    </pre>
   </form>
 </div>
