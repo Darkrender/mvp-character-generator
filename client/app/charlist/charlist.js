@@ -2,7 +2,7 @@ angular.module('RPG-Character-Generator')
   .controller('charListCtrl', function($scope, $http) {
     $scope.characters = [];
 
-    $scope.getAll = function() {
+    $scope.getAllCharacters = function() {
       $http({
         method: 'GET',
         url: '/characterlist'

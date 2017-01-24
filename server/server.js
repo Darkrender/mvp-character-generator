@@ -47,7 +47,7 @@ app.get('/characterlist', function(req, res) {
   console.log('I see you\'re trying to get something...');
   Character.find({}, function(err, characters) {
     if (err) {
-      console.error(err);
+      throw err;
     } else {
       res.send(characters);
     }
