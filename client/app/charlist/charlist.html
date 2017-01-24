@@ -10,9 +10,9 @@
     </ul>
   </nav>
 
-  <div>
-    <p>
-      lorem ipsem dolor aset.
-    </p>
+  <div ng-controller="charListCtrl" ng-init="getAll()">
+    <ul>
+      <li ng-repeat="char in characters">{{char}}</li>
+    </ul>
   </div>
 </div>

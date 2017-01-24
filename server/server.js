@@ -44,9 +44,14 @@ app.post('/characterlist', function(req, res) {
 });
 
 app.get('/characterlist', function(req, res) {
-  res.writeHead(200);
   console.log('I see you\'re trying to get something...');
-
+  Character.find({}, function(err, characters) {
+    if (err) {
+      console.error(err);
+    } else {
+      res.send(characters);
+    }
+  });
 });
 
 app.listen(port, function() {
