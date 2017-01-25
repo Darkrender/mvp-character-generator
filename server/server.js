@@ -20,7 +20,7 @@ var characterSchema = mongoose.Schema({
     trait: String,
     flaw: String,
     alignment: String,
-    note: String
+    notes: String
   });
 var Character = mongoose.model('Character', characterSchema);
 
@@ -38,7 +38,7 @@ app.post('/characterlist', function(req, res) {
       trait: req.body.trait,
       flaw: req.body.flaw,
       alignment: req.body.alignment,
-      note: req.body.note
+      notes: req.body.notes
   });
 
   c.save(function(err) {

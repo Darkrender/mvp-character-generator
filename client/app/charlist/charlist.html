@@ -10,9 +10,17 @@
     </ul>
   </nav>
 
-  <div ng-controller="charListCtrl" ng-init="getAllCharacters()">
+  <div id="charListDiv" ng-controller="charListCtrl" ng-init="getAllCharacters()">
     <ul>
-      <li ng-repeat="char in characters">{{char.name}} - {{char.race}} {{char.class}}</li>
+      <li ng-repeat="char in characters">
+        {{char.name}} - {{char.race}} {{char.class}}
+        <ul>
+          <li> Alignment: {{char.alignment}} </li>
+          <li> Trait: {{char.trait}} </li>
+          <li> Flaw: {{char.flaw}} </li>
+          <li> Notes: {{char.notes}} </li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>
