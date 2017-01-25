@@ -6,7 +6,7 @@ body {
 
 a {
   color: #333;
-  font-size: 14px;
+  font-size: 17px;
   text-decoration: none;
 }
 
@@ -20,14 +20,15 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .navBar li {
-  float: left;
+  display: inline-block;
 }
 
 .navBar li a {
-  width: 110px;
+  width: 150px;
   height: 20px;
   line-height: 20px;
   padding: 10px;
@@ -44,10 +45,35 @@ a {
 }
 
 #container {
-  clear: both;
   margin-top: 10px;
 }
 
 #csForm {
-  margin-left: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main {
+  display: inline-block;
+  margin:10px;
+}
+
+#submitDiv {
+  text-align: center;
+
+}
+#submit {
+  display: inline-block;
+  width: 10%;
+  padding: 10px;
+  margin-left: 2%;
+}
+
+input {
+  font-size: 20px;
+}
+
+select {
+  font-size: 20px;
 }

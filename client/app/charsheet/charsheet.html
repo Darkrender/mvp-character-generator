@@ -9,21 +9,46 @@
       </li>
     </ul>
   </nav>
-  <form id="csForm" ng-submit="submit()" ng-controller="csFormCtrl">
+</div>
 
+<form ng-submit="submit()" ng-controller="csFormCtrl">
+
+  <div id="csForm">
     <h3>
       Name:
       <input type="text" name="Name" ng-model="name">
     </h3>
-    <h3>
+    <h3 class='main'>
       Race:
       <select ng-model="selectedRace" ng-options="race for race in races"></select>
     </h3>
-    <h3>
+    <h3 class='main'>
       Class:
       <select ng-model="selectedClass" ng-options="class for class in classes"></select>
     </h3>
 
-    <input type="submit" name="submit" value="Submit">
-  </form>
-</div>
+    <h3>
+      Personal Alignment:
+      <select ng-model="selectedAlignment" ng-options="alignment for alignment in alignments"></select>
+    </h3>
+
+    <h3>
+      Personality Trait:
+      <select ng-model="selectedTrait" ng-options="trait for trait in traits"></select>
+    </h3>
+
+    <h3>
+      Personal Flaw:
+      <select ng-model="selectedFlaw" ng-options="flaw for flaw in flaws"></select>
+    </h3>
+
+    <h3>
+      Notes:
+      <input type="text" name="Notes" ng-model="notes">
+    </h3>
+  </div>
+
+    <div id='submitDiv'>
+      <button id='submit' type="submit" name="submit">Submit</button>
+    </div>
+</form>
