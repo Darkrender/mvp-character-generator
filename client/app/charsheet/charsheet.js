@@ -17,10 +17,11 @@ angular.module('RPG-Character-Generator')
       $scope.character.trait = this.selectedTrait;
       $scope.character.flaw = this.selectedFlaw;
       $scope.character.alignment = this.selectedAlignment;
-      $scope.notes = this.notes;
+      $scope.character.notes = this.notes;
       $scope.name = '';
       $scope.notes = '';
-      $scope.result = '' + $scope.character;
+      this.selectedRace = this.selectedClass = this.selectedTrait =
+      this.selectedClass = this.selectedAlignment = this.selectedFlaw = null;
 
       $http({
         method: 'POST',
