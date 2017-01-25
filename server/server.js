@@ -16,10 +16,13 @@ db.once('open', function() {
 var characterSchema = mongoose.Schema({
     name: String,
     race: String,
-    class: String
+    class: String,
+    trait: String,
+    flaw: String,
+    alignment: String,
+    note: String
   });
 var Character = mongoose.model('Character', characterSchema);
-
 
 app.use(express.static('./client'));
 app.use(bodyParser());
@@ -31,7 +34,11 @@ app.post('/characterlist', function(req, res) {
   var c = new Character({
       name: req.body.name,
       class: req.body.class,
-      race: req.body.race
+      race: req.body.race,
+      trait: req.body.trait,
+      flaw: req.body.flaw,
+      alignment: req.body.alignment,
+      note: req.body.note
   });
 
   c.save(function(err) {
