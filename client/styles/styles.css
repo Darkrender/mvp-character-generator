@@ -56,8 +56,12 @@ a {
 
 #charListDiv {
   padding: 0;
-  margin-left: 40%;
+  margin-left: 38%;
   width: 35%;
+}
+
+#charListDiv ul li{
+  font-size: 20px;
 }
 
 
